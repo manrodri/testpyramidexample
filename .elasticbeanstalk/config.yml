@@ -24,4 +24,4 @@ global:
   sc: git
   workspace_type:
 deploy:
-  artifact: rxdemo-server/rest/target/rxdemo-api.war
+  artifact: rxdemo-api.war
