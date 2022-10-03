@@ -31,7 +31,14 @@ module.exports = function(config) {
     colors: true,
     logLevel: config.LOG_INFO,
     autoWatch: true,
-    browsers: ['ChromeHeadless'],
+    plugins: [
+     require('karma-jasmine'),
+     require('karma-firefox-launcher'),
+     require('karma-jasmine-html-reporter'),
+     require('karma-coverage-istanbul-reporter'),
+     require('@angular-devkit/build-angular/plugins/karma')
+   ],
+    browsers: ['Firefox'],
     singleRun: false,
     // client.args must be a array of string.
     // Leave 'aurelia-root', project.paths.root in this order so we can find

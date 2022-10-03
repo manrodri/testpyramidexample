@@ -27,7 +27,6 @@
     "text": "github:requirejs/text#latest",
     "whatwg-fetch": "^2.0.3"
   },
-  "peerDependencies": {},
   "devDependencies": {
     "aurelia-cli": "^1.1.1",
     "aurelia-templating-resources": "^1.1.1",
@@ -64,6 +63,7 @@
     "karma": "^5.2.3",
     "karma-babel-preprocessor": "^6.0.1",
     "karma-chrome-launcher": "^2.2.0",
+    "karma-firefox-launcher": "^2.1.2",
     "karma-jasmine": "^1.1.2",
     "karma-junit-reporter": "^1.2.0",
     "minimatch": "^3.0.2",
